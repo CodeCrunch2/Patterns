@@ -1,7 +1,6 @@
 package main.java.com.mkudriavtsev.patterns.creational.abstractFactory;
 
 import main.java.com.mkudriavtsev.patterns.creational.abstractFactory.modern.ModernFurnitureFactory;
-import sun.tools.jconsole.Tab;
 
 public class ModernFurnitureMarket {
     public static void main(String[] args) {
