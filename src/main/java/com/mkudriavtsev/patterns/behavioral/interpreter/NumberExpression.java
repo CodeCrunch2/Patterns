@@ -8,7 +8,7 @@ public class NumberExpression implements Expression{
     }
 
     @Override
-    public int interpret(Expression context) {
+    public int interpret() {
         return number;
     }
 }

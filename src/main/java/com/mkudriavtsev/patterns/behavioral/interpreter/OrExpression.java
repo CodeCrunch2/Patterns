@@ -10,7 +10,7 @@ public class OrExpression implements Expression {
     }
 
     @Override
-    public int interpret(Expression context) {
-        return expressionLeft.interpret(context) | expressionRight.interpret(context);
+    public int interpret() {
+        return expressionLeft.interpret() | expressionRight.interpret();
     }
 }
